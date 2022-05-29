@@ -20,7 +20,7 @@
         <form action="/">
             <fieldset name="demographic-data">
                 
-                <label>Em qual faixa etária melhor se encaixa sua idade?
+                <label name="question1">Em qual faixa etária melhor se encaixa sua idade?
                     <select required>
                         <option value="">(Selecione)</option>
                         <option value="1">Menos de 18 anos.</option>
@@ -32,15 +32,15 @@
                     </select>
                 </label>
 
-                <label class="padding-space">Você estuda ou trabalha?</label>
+                <label class="padding-space" name="question2">Você estuda ou trabalha?</label>
                     <label><input type="radio" name="ocupacao" class="inline" /> Apenas estudo.</label>
                     <label><input type="radio" name="ocupacao" class="inline" /> Apenas trabalho.</label>
                     <label><input type="radio" name="ocupacao" class="inline" /> Estudo e trabalho.</label>
                     <label><input type="radio" name="ocupacao" class="inline" /> Nem estudo, nem trabalho.</label>
 
-                    <label class="padding-space">Você possui acesso à internet na sua residência? <input type="text" placeholder="Sua resposta" required /></label>
+                    <label class="padding-space" name="question3">Você possui acesso à internet na sua residência? <input type="text" placeholder="Sua resposta" required /></label>
 
-                <label class="padding-space">Qual faixa salarial corresponde melhor à sua?
+                <label class="padding-space" name="question4">Qual faixa salarial corresponde melhor à sua?
                         <select required>
                             <option value="">(Selecione)</option>
                             <option value="1">R$ 0,00 (não trabalho).</option>
@@ -53,7 +53,7 @@
                         </select>
                     </label>
                 
-                <label class="padding-space">Você trabalha (ou estuda) em alguma das seguintes áreas?
+                <label class="padding-space" name="question5">Você trabalha (ou estuda) em alguma das seguintes áreas?
                     <label><input type="radio" name="area" class="inline" /> Design Gráfico.</label>
                     <label><input type="radio" name="area" class="inline" /> Arquitetura.</label>
                     <label><input type="radio" name="area" class="inline" /> Ilustração.</label>
@@ -65,33 +65,33 @@
 
 
             <fieldset name="product">
-                <label class="padding-space">O quão importante é um computador/notebook para a execução da sua rotina de trabalho e/ou estudos?
+                <label class="padding-space" name="question6">O quão importante é um computador/notebook para a execução da sua rotina de trabalho e/ou estudos?
                     <label><input type="radio" name="importancia-pc" class="inline" /> Nem um pouco importante.</label>
                     <label><input type="radio" name="importancia-pc" class="inline" /> Pouco importante.</label>
                     <label><input type="radio" name="importancia-pc" class="inline" /> Levemente importante.</label>
                     <label><input type="radio" name="importancia-pc" class="inline" />Muito importante.</label> 
                 </label>
 
-                <label class="padding-space">As opções de notebooks e computadores disponíveis no mercado atualmente atendem as suas necessidades da melhor forma?
+                <label class="padding-space" name="question7">As opções de notebooks e computadores disponíveis no mercado atualmente atendem as suas necessidades da melhor forma?
                     <input type="text" placeholder="Sua resposta" required />
                 </label>
 
-                <label class="padding-space">Os produtos que melhor atendem suas necessidades estão dentro do seu poder de compra?
+                <label class="padding-space" name="question8">Os produtos que melhor atendem suas necessidades estão dentro do seu poder de compra?
                     <input type="text" placeholder="Sua resposta" required />
                 </label>
 
-                <label class="padding-space">Qual(is) característica(s) você mais valoriza em um notebook para trabalho/estudos?
+                <label class="padding-space" name="question9">Qual(is) característica(s) você mais valoriza em um notebook para trabalho/estudos?
                     <label><input type="checkbox" class="inline" name="caracteristicas-note" />Desempenho</label>
                     <label><input type="checkbox" class="inline" name="caracteristicas-note" />Qualidade de imagem e resolução</label>
                     <label><input type="checkbox" class="inline" name="caracteristicas-note" />Qualidade de imagem e resolução</label>
                     <label><input type="checkbox" class="inline" name="caracteristicas-note" />Qualidade de imagem e resolução</label>
                 </label>
 
-                <label class="padding-space">O preço de um computador é um fator decisivo para a sua escolha?
+                <label class="padding-space" name="question10">O preço de um computador é um fator decisivo para a sua escolha?
                     <input type="text" placeholder="Sua resposta" required />
                 </label>
 
-                <label class="padding-space">Você pode realizar este tipo de investimento neste momento? 
+                <label class="padding-space" name="question11">Você pode realizar este tipo de investimento neste momento? 
                     <label><input type="radio" class="inline" name="investimento" />Não.</label>
                     <label><input type="radio" class="inline" name="investimento" />Daqui a um tempo.</label>
                     <label><input type="radio" class="inline" name="investimento" />Sim.</label>
