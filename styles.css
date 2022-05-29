@@ -10,7 +10,7 @@ body {
 
 
 form {
-    font-size: 14px;
+    font-size: 15px;
     width: 60vw;
     min-width: 300px;
     max-width: 600px;
@@ -29,7 +29,7 @@ label {
 
   input, select {
     background-color: #414451;
-    font-size: 13px;
+    font-size: 14px;
     color: #c1c1c1;
     border: 1px solid #cacaca;
 }
