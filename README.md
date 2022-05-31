@@ -1,2 +1,3 @@
-# form-project
-Meu primeiro projeto feito em HTML/CSS do zero, com base em um dos projetos do curso de "Responsive Web Design" do freeCodeCamp. 
+# My first project!
+
+Created in HTML and CSS, this project was based on one of the projects from the "Responsive Web Design" course by freeCodeCamp.
